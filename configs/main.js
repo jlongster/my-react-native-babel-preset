@@ -14,7 +14,6 @@ module.exports = {
   comments: false,
   compact: true,
   plugins: resolvePlugins([
-    'syntax-async-functions',
     'syntax-class-properties',
     'syntax-trailing-function-commas',
     'transform-class-properties',
@@ -36,7 +35,6 @@ module.exports = {
     'transform-object-rest-spread',
     'transform-react-display-name',
     'transform-react-jsx',
-    'transform-regenerator',
     ['transform-es2015-for-of', { loose: true }],
     require('../transforms/transform-symbol-member'),
   ]),
